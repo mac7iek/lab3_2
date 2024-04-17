@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Main{
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
-    System.out.print("Podaj znak, którym chcesz stworzyć trójkąt: ");
+    System.out.print("Podaj znak, którym chcesz stworzyć własny trójkąt: ");
     char symbol = scanner.next().charAt(0);
 
     System.out.println("podaj wysokość tego trójkąta: ");
