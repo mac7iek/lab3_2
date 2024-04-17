@@ -5,7 +5,7 @@ public class Main{
     System.out.print("Podaj znak, którym chcesz stworzyć trójkąt: ");
     char symbol = scanner.next().charAt(0);
 
-    System.out.println("podaj jego wysokość: ");
+    System.out.println("podaj wysokość tego trójkąta: ");
     int height = scanner.nextInt();
     for(int i = 1; i <= height; i++) {
       for(int j = 1; j <= i; j++) {
